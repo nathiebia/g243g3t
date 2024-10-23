@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root{
-    --bg-color:#379e3c;
-    --primary-color:#154b22;
-    --secundary-color:#002c00;
+    --bg-color:#ff86b9;
+    --primary-color:#d33e90;
+    --secundary-color:#db1d7c;
     --fonte: "PT Serif", serif; 
 }
 body {
