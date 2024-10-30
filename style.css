@@ -1,63 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
 
-:root{
-    --bg-color:#ff86b9;
-    --primary-color:#d33e90;
-    --secundary-color:#db1d7c;
-    --fonte: "PT Serif", serif; 
 }
-body {
+:root{
+    --bg-color:rgb(255, 190, 190);
+    --primary-color:rgb(196, 6, 6);
+    --secundary-color:rgb(128, 0, 0);
+    --font-selecionada:"Josefin Sans", sans-serif;;
+}
+body{
     background-color: var(--bg-color);
     color: var(--primary-color);
-    font-family: var(--font);
-    height: 100vh;
-    margin: 0;
 }
-header{
-    background-color: var(--primary-color);
-    text-align: center;
-    font-weight: 700;
-}
-h1{
-    font-size: 2rem;
-    color: var(--bg-color);
-    font-weight: 700;
-}
-nav{
-    display: flex;
-    justify-content: center;
-    font-weight: 400;
-}
-nav a{
-    text-decoration: none;
-    color: var(--bg-color);
-    margin: 0rem 2rem 3rem 0rem;
-}
-nav a:hover {
-    text-decoration: underline;
-    transform: scale(1.1);
-    transition: transform 0.1s;
-}
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--primary-color);
-    color: var(--bg-color);
+.barra{
     width: 100%;
-    height: 3rem;
-    margin-top: 2rem;
-}
-.graficos-container{
-    margin: 5rem;
-}
-.graficos-container_texto{
-    font-size: 1.3rem;
-    text-align: center;
     padding: 2rem;
-    border: var(--secundary-color) solid 2px;
-}
-span{
-    font-weight: bold;
-    color: var(--secundary-color);
+    position: fixed;
+    box-shadow: 1px 2px var(--secundary-color);
 }
